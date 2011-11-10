@@ -20,6 +20,9 @@ using namespace llvm;
 using namespace klee;
 
 namespace {
+  cl::opt<std::string>
+  UseGuidedSearch("use-guided-search", cl::desc("Specity input XML defect file"));
+
   cl::opt<bool>
   UseRandomSearch("use-random-search");
 
@@ -111,6 +114,8 @@ Searcher *klee::constructUserSearcher(Executor &executor) {
     searcher = new WeightedRandomSearcher(executor, WeightType);
   } else if (UseRandomSearch) {
     searcher = new RandomSearcher();
+  } else if (UseGuidedSearch!="") {
+    searcher = new GuidedSearcher(executor, UseGuidedSearch);
   } else {
     searcher = new DFSSearcher();
   }

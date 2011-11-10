@@ -7,6 +7,8 @@
  ********************************************************************/
 // -*- c++ -*-
 
+#include <stdint.h>
+
 #include "AST.h"
 namespace BEEV {
   //some global variables that are set through commandline options. it

@@ -7,6 +7,8 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include <stdint.h>
+
 #include "ExternalDispatcher.h"
 
 #include "llvm/Module.h"

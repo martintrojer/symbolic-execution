@@ -118,7 +118,7 @@ bool AddressSpace::resolveOne(ExecutionState &state,
         return true;
       } else {
         bool mustBeTrue;
-        if (!solver->mustBeTrue(state, 
+        if (!solver->mustBeTrue(state, // Unsigned Greater or Equal
                                 UgeExpr::create(address, mo->getBaseExpr()),
                                 mustBeTrue))
           return false;
@@ -132,7 +132,7 @@ bool AddressSpace::resolveOne(ExecutionState &state,
       const MemoryObject *mo = oi->first;
 
       bool mustBeTrue;
-      if (!solver->mustBeTrue(state, 
+      if (!solver->mustBeTrue(state,     // Unsigned less than
                               UltExpr::create(address, mo->getBaseExpr()),
                               mustBeTrue))
         return false;
@@ -141,7 +141,7 @@ bool AddressSpace::resolveOne(ExecutionState &state,
       } else {
         bool mayBeTrue;
 
-        if (!solver->mayBeTrue(state, 
+        if (!solver->mayBeTrue(state,   // Maybe in bounds?
                                mo->getBoundsCheckPointer(address),
                                mayBeTrue))
           return false;
@@ -194,6 +194,7 @@ bool AddressSpace::resolve(ExecutionState &state,
     uint64_t example = cex->getZExtValue();
     MemoryObject hack(example);
     
+    // int osize = objects.size();
     MemoryMap::iterator oi = objects.upper_bound(&hack);
     MemoryMap::iterator begin = objects.begin();
     MemoryMap::iterator end = objects.end();

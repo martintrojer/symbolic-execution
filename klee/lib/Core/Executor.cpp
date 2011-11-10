@@ -2338,6 +2338,9 @@ void Executor::run(ExecutionState &initialState) {
   while (!states.empty() && !haltExecution) {
     ExecutionState &state = searcher->selectState();
     KInstruction *ki = state.pc;
+    // Instruction *i = state.pc->inst;
+    // Function *f = i->getParent()->getParent();
+    // std::cerr << "[" << states.size() << "] " << f->getNameStr() << "() " << i->getOpcodeName() << "\n";
     stepInstruction(state);
 
     executeInstruction(state, ki);
@@ -2946,6 +2949,7 @@ void Executor::executeMemoryOperation(ExecutionState &state,
   // XXX there is some query wasteage here. who cares?
   ExecutionState *unbound = &state;
   
+  // int rl_size = rl.size();
   for (ResolutionList::iterator i = rl.begin(), ie = rl.end(); i != ie; ++i) {
     const MemoryObject *mo = i->first;
     const ObjectState *os = i->second;
