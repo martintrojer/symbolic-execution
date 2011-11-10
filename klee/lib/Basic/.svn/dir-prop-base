@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 62
+Debug+Coverage
+Debug
+Release+Coverage
+Release-Asserts
+Release
+
+END

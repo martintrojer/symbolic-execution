@@ -1,0 +1,5 @@
+Alterations to LLVM and KLEE for practical "false positive pruning" defect finding.
+
+Copyright Martin Trojer <martin.trojer@gmail.com>
+
+For more information see 

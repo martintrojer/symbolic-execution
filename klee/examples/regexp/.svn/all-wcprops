@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/llvm-project/!svn/ver/72265/klee/trunk/examples/regexp
+END
+notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/72205/klee/trunk/examples/regexp/notes.txt
+END
+Regexp.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/llvm-project/!svn/ver/72265/klee/trunk/examples/regexp/Regexp.c
+END

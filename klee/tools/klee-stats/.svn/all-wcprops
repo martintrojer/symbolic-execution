@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/llvm-project/!svn/ver/77154/klee/trunk/tools/klee-stats
+END
+klee-stats
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/77154/klee/trunk/tools/klee-stats/klee-stats
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/72964/klee/trunk/tools/klee-stats/Makefile
+END

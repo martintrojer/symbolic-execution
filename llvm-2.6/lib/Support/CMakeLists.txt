@@ -1,0 +1,37 @@
+add_llvm_library(LLVMSupport
+  APFloat.cpp
+  APInt.cpp
+  APSInt.cpp
+  Allocator.cpp
+  CommandLine.cpp
+  ConstantRange.cpp
+  Debug.cpp
+  Dwarf.cpp
+  ErrorHandling.cpp
+  FileUtilities.cpp
+  FoldingSet.cpp
+  FormattedStream.cpp
+  GraphWriter.cpp
+  IsInf.cpp
+  IsNAN.cpp
+  ManagedStatic.cpp
+  MemoryBuffer.cpp
+  PluginLoader.cpp
+  PrettyStackTrace.cpp
+  SlowOperationInformer.cpp
+  SmallPtrSet.cpp
+  SourceMgr.cpp
+  Statistic.cpp
+  Streams.cpp
+  StringExtras.cpp
+  StringMap.cpp
+  StringPool.cpp
+  SystemUtils.cpp
+  TargetRegistry.cpp
+  Timer.cpp
+  Triple.cpp
+  Twine.cpp
+  raw_ostream.cpp
+  )
+
+target_link_libraries (LLVMSupport LLVMSystem)

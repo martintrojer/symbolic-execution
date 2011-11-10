@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/llvm-project/!svn/ver/85080/klee/trunk
+END
+LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/llvm-project/!svn/ver/72205/klee/trunk/LICENSE.TXT
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/llvm-project/!svn/ver/85023/klee/trunk/configure
+END
+TODO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/llvm-project/!svn/ver/72205/klee/trunk/TODO.txt
+END
+Makefile.common
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/llvm-project/!svn/ver/72246/klee/trunk/Makefile.common
+END
+Makefile.config.in
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/llvm-project/!svn/ver/72205/klee/trunk/Makefile.config.in
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/llvm-project/!svn/ver/72205/klee/trunk/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/llvm-project/!svn/ver/72730/klee/trunk/Makefile
+END

@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 69
+lexPL.cpp
+parsePL.cpp
+parsePL_defs.h
+parser
+y.output
+y.tab.c
+y.tab.h
+
+END

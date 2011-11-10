@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/llvm-project/!svn/ver/72205/klee/trunk/runtime/POSIX/testing-dir
+END
+a
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/72205/klee/trunk/runtime/POSIX/testing-dir/a
+END
+b
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/72205/klee/trunk/runtime/POSIX/testing-dir/b
+END
+c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/72205/klee/trunk/runtime/POSIX/testing-dir/c
+END
+d
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/llvm-project/!svn/ver/72205/klee/trunk/runtime/POSIX/testing-dir/d
+END

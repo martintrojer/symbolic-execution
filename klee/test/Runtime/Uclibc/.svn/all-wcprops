@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/72925/klee/trunk/test/Runtime/Uclibc
+END
+Environ.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/llvm-project/!svn/ver/72205/klee/trunk/test/Runtime/Uclibc/Environ.c
+END
+2007-10-08-optimization-calls-wrong-libc-functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/llvm-project/!svn/ver/72205/klee/trunk/test/Runtime/Uclibc/2007-10-08-optimization-calls-wrong-libc-functions.c
+END
+dg.exp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/llvm-project/!svn/ver/72205/klee/trunk/test/Runtime/Uclibc/dg.exp
+END
+2008-03-04-libc-atexit-uses-dso-handle.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/llvm-project/!svn/ver/72205/klee/trunk/test/Runtime/Uclibc/2008-03-04-libc-atexit-uses-dso-handle.c
+END

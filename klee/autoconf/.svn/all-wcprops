@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/llvm-project/!svn/ver/85022/klee/trunk/autoconf
+END
+AutoRegen.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/72205/klee/trunk/autoconf/AutoRegen.sh
+END
+configure.ac
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/85022/klee/trunk/autoconf/configure.ac
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/llvm-project/!svn/ver/72205/klee/trunk/autoconf/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/72205/klee/trunk/autoconf/config.sub
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/llvm-project/!svn/ver/72205/klee/trunk/autoconf/install-sh
+END
