@@ -2,7 +2,7 @@ Alterations to LLVM and KLEE for practical "false positive pruning" defect findi
 
 Copyright Martin Trojer <martin.trojer@gmail.com>
 
-For more information see 
+For more information see http://martinsprogrammingblog.blogspot.com/2011/11/applied-symbolic-execution-with.html
 
 llvm-2.6 contains the update to LLVM, mainly the "CallPaths" LLVM analysis pass.
 This uses Boost Graph Library to generate a set of potential paths from a
